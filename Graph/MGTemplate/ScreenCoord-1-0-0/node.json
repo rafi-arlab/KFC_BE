@@ -1,0 +1,43 @@
+{
+	"id": "3af29136-2f24-6eb4-3cc7-c680468237b3",
+	"name": "Screen Coord",
+	"category": "Builtin Data",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "The screen coordinates of the current surface",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"nameKey": "mg_screen_coord_output_result",
+			"descriptionKey": "mg_screen_coord_output_result_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"description": "Returns the screen coordinates of the current surface",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.0.0",
+	"nameKey": "mg_screen_coord_name",
+	"categoryKey": "mg_category_builtin_data",
+	"descriptionKey": "mg_screen_coord_description",
+	"nodeSettingConfig": {
+		"sections": [
+			{
+				"section": "General",
+				"sectionKey": "mgparam_section_general",
+				"properties": [
+					{
+						"property": "Reverse Y",
+						"propertyType": "Checkbox",
+						"propertyKey": "mg_screen_coord_setting_general_reverse_y",
+						"defaultValue": false
+					}
+				]
+			}
+		]
+	}
+}

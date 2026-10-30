@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "4b078275-e824-e869-fed7-fecfe06c651e",
+      "b": ""
+    },
+    "extraType": "ResItemMGSubgraph",
+    "name": "reveal_from_texture",
+    "expandInPanel": false,
+    "objGuid": "",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "authorizationInfo": ""
+  }
+]

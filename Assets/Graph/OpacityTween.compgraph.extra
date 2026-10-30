@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "557af08a-3da0-c839-bf85-12458e7ba954",
+      "b": ""
+    },
+    "extraType": "ResItemComponentGraph",
+    "name": "OpacityTween",
+    "version": "0.0.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\User\\AppData\\Local\\Effect House\\Resources\\BuiltinResource\\ScriptGraph\\BuiltinAsset\\Custom Component.compgraph",
+    "references": []
+  }
+]

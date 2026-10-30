@@ -1,0 +1,27 @@
+{
+	"id": "ba56e07f-5b34-1b46-e9fe-7ccde9506e87",
+	"name": "Float",
+	"category": "Parameter",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "The output float parameter",
+			"type": "Number",
+			"nameKey": "mg_float_output_result",
+			"descriptionKey": "mg_float_output_result_description",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"description": "Adds a float parameter",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.0.0",
+	"nameKey": "mg_float_name",
+	"descriptionKey": "mg_float_description",
+	"categoryKey": "mg_category_parameter"
+}

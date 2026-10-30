@@ -1,0 +1,126 @@
+{
+	"id": "63704228-4154-2649-b2fe-9e6240debd2c",
+	"name": "Sample Texture 2D",
+	"category": "Sample",
+	"inputs": [
+		{
+			"name": "Texture 2D",
+			"description": "The 2D texture to sample",
+			"type": "Texture",
+			"providerType": "Texture2DProvider",
+			"defaultValue": "Default_Material_Texture_Icon",
+			"isUniform": true,
+			"displayType": "Texture 2D",
+			"nameKey": "mg_sample_texture_2d_input_texture_2d",
+			"descriptionKey": "mg_sample_texture_2d_input_texture_2d_description",
+			"displayTypeKey": "graph_type_texture2d"
+		},
+		{
+			"name": "UV Coord",
+			"description": "The UV coordinates of the input texture",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"nameKey": "mg_sample_texture_2d_input_uv_coord",
+			"descriptionKey": "mg_sample_texture_2d_input_uv_coord_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"outputs": [
+		{
+			"name": "RGBA",
+			"description": "The pixel value at the given UV coordinates",
+			"type": "Color",
+			"displayType": "Color",
+			"nameKey": "mg_sample_texture_2d_output_rgba",
+			"descriptionKey": "mg_sample_texture_2d_output_rgba_description",
+			"displayTypeKey": "graph_type_color"
+		},
+		{
+			"name": "RGB",
+			"description": "The pixel value without alpha at the given UV coordinates",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "mg_sample_texture_2d_output_rgb",
+			"descriptionKey": "mg_sample_texture_2d_output_rgb_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "R",
+			"description": "The R channel of the pixel value",
+			"type": "Number",
+			"displayType": "Number",
+			"nameKey": "mg_sample_texture_2d_output_r",
+			"descriptionKey": "mg_sample_texture_2d_output_r_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "G",
+			"description": "The G channel of the pixel value",
+			"type": "Number",
+			"displayType": "Number",
+			"nameKey": "mg_sample_texture_2d_output_g",
+			"descriptionKey": "mg_sample_texture_2d_output_g_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "B",
+			"description": "The B channel of the pixel value",
+			"type": "Number",
+			"displayType": "Number",
+			"nameKey": "mg_sample_texture_2d_output_b",
+			"descriptionKey": "mg_sample_texture_2d_output_b_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "A",
+			"description": "The Alpha channel of the pixel value",
+			"type": "Number",
+			"displayType": "Number",
+			"nameKey": "mg_sample_texture_2d_output_a",
+			"descriptionKey": "mg_sample_texture_2d_output_a_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"description": "Samples a 2D texture at a given position, then returns a corresponding pixel value",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.0.0",
+	"nameKey": "mg_sample_texture_2d_name",
+	"categoryKey": "mg_category_sample",
+	"descriptionKey": "mg_sample_texture_2d_description",
+	"nodeSettingConfig": {
+		"sections": [
+			{
+				"section": "General",
+				"sectionKey": "mgparam_section_general",
+				"properties": [
+					{
+						"property": "Sampler Type",
+						"propertyType": "StringList",
+						"propertyKey": "mg_sample_texture_2d_setting_general_sampler_type",
+						"defaultValue": "COLOR",
+						"propertyAttribute": {
+							"option": [
+								{
+									"key": "mg_sample_texture_2d_setting_general_sampler_type_stringlist_color",
+									"value": "COLOR"
+								},
+								{
+									"key": "mg_sample_texture_2d_setting_general_sampler_type_stringlist_normal",
+									"value": "NORMAL"
+								},
+								{
+									"key": "mg_sample_texture_2d_setting_general_sampler_type_stringlist_linear",
+									"value": "LINEAR"
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

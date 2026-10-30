@@ -1,0 +1,75 @@
+{
+	"id": "b2aa6cdc-bb85-158d-ea02-acb5f17d6914",
+	"name": "Subtract",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "A",
+			"description": "The first input value",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "mg_subtract_input_a",
+			"descriptionKey": "mg_subtract_input_a_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "B",
+			"description": "The second input value",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "mg_subtract_input_b",
+			"descriptionKey": "mg_subtract_input_b_description",
+			"displayTypeKey": "graph_type_vec3"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "The result of A minus B",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "mg_subtract_output_result",
+			"descriptionKey": "mg_subtract_output_result_description",
+			"displayTypeKey": "graph_type_vec3"
+		}
+	],
+	"description": "Calculates the difference between two input values",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"genType",
+				"Number"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.0.0",
+	"nameKey": "mg_subtract_name",
+	"categoryKey": "mg_category_math",
+	"descriptionKey": "mg_subtract_description"
+}

@@ -1,0 +1,929 @@
+[
+  {
+    "guid": {
+      "a": "00000000-0000-0000-0000-000000000000",
+      "b": ""
+    },
+    "objGuid": "Guid(7875085725817850609, 329766013828765107)",
+    "extraType": "SceneEditor",
+    "rttiType": "Scene",
+    "signalRegistry": "{\n  \"signals\": []\n}"
+  },
+  {
+    "guid": {
+      "a": "9baa39a1-99dd-68c7-f365-ef9fb4e1cf1c",
+      "b": ""
+    },
+    "objGuid": "Guid(10180214583793075010, 13085474825770890632)",
+    "extraType": "Entity",
+    "name": "Main Camera",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "131eee15-64bf-4bea-a12e-b1016d0e5d2a",
+      "b": ""
+    },
+    "objGuid": "Guid(14145000689903744101, 6111037265461598351)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "8f8f8437-a9a9-74f5-a884-8d54dcd4d0d9",
+      "b": ""
+    },
+    "objGuid": "Guid(18393534764065644695, 16547619468206596491)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "version": "0.4.0",
+    "rttiType": "Camera",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.4.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "enableMask": true,
+    "maskTexture": "1c423d74-da6f-ae90-774d-cc64b3af2c53",
+    "physicalFovy": false,
+    "fov": 60,
+    "cachedInputTexture": "00000000-0000-0000-0000-00000000004b",
+    "isAnimatorBound": false
+  },
+  {
+    "guid": {
+      "a": "ae2d2b2d-8da7-b292-5548-4c34d2b72c83",
+      "b": ""
+    },
+    "objGuid": "Guid(5572803286065691648, 10808225779706699930)",
+    "extraType": "Entity",
+    "name": "General",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "3c9d0ed3-089e-79a0-416c-91a1044c52da",
+      "b": ""
+    },
+    "objGuid": "Guid(5123302227331141539, 7587318471420405647)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "ad28794e-97fd-2162-14fb-a6f29fbf245f",
+      "b": ""
+    },
+    "objGuid": "Guid(4660260443602838698, 17222594840295126447)",
+    "extraType": "EffectNode",
+    "name": "Render Group",
+    "version": "0.1.0",
+    "rttiType": "EffectNode",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "type": 5,
+    "sortMethod": 2,
+    "enableInputTexture": false,
+    "inputTexture": "00000000-0000-0000-0000-00000000004b"
+  },
+  {
+    "guid": {
+      "a": "a1451e9d-7cd2-bdba-b397-52854e9f04a4",
+      "b": ""
+    },
+    "objGuid": "Guid(5659254956275053312, 17773670515030420411)",
+    "extraType": "Entity",
+    "name": "EffectController",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "2e47ce51-1ea1-da49-014f-36ceee7df734",
+      "b": ""
+    },
+    "objGuid": "Guid(5153257688403037013, 16235676080682173106)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "8b40ac61-7b8a-68d8-dff3-f63382ea4cd5",
+      "b": ""
+    },
+    "objGuid": "Guid(4675335832612711588, 1317532423702559930)",
+    "extraType": "ComponentGraph",
+    "name": "EffectController",
+    "version": "0.2.0",
+    "rttiType": "JSScriptComponent",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.2.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "resItemComponentGraph": "d6aba73d-4bce-4236-063e-d33abdceb1d7"
+  },
+  {
+    "guid": {
+      "a": "2a9aa24f-c1c8-ca4e-e007-18d84f652d0b",
+      "b": ""
+    },
+    "objGuid": "Guid(5698242305589306169, 2765726890270334118)",
+    "extraType": "Entity",
+    "name": "Lighting",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_utility",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "fb0c78f6-abbb-4fe0-b9b3-f5c647c870f5",
+      "b": ""
+    },
+    "objGuid": "Guid(5189671504040886896, 15306510303607215785)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "4609afab-8ae3-28c8-60d7-c3fa8a65a305",
+      "b": ""
+    },
+    "objGuid": "Guid(4846084881374646499, 10921300762328150934)",
+    "extraType": "Entity",
+    "name": "Orthographic Background",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "9f2e53ce-4132-5918-c92f-69afb2da47e0",
+      "b": ""
+    },
+    "objGuid": "Guid(5713894924962688845, 18404978233284172946)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "c6405145-4b18-5c9f-2b74-49d2290343b5",
+      "b": ""
+    },
+    "objGuid": "Guid(5126105089743119024, 6523756192791205019)",
+    "extraType": "EffectNode",
+    "name": "Render Group",
+    "version": "0.1.0",
+    "rttiType": "EffectNode",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "type": 6,
+    "sortMethod": 1,
+    "enableInputTexture": false,
+    "inputTexture": "00000000-0000-0000-0000-00000000004b"
+  },
+  {
+    "guid": {
+      "a": "e89ac6bf-afde-0258-1374-89b797375139",
+      "b": ""
+    },
+    "objGuid": "Guid(4645661532268818160, 10609441462177540770)",
+    "extraType": "Entity",
+    "name": "Main",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "3fc7adaa-d985-c055-80ae-484fa863fd2b",
+      "b": ""
+    },
+    "objGuid": "Guid(5354925933314224755, 12994409418858128569)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "2d867d5a-c974-a06a-0b19-3d6effe14878",
+      "b": ""
+    },
+    "objGuid": "Guid(4831734657769439407, 1970019132563573676)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "version": "0.4.0",
+    "rttiType": "Camera",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.4.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "enableMask": true,
+    "maskTexture": "1c423d74-da6f-ae90-774d-cc64b3af2c53",
+    "physicalFovy": false,
+    "fov": 60,
+    "cachedInputTexture": "00000000-0000-0000-0000-00000000004b",
+    "isAnimatorBound": false
+  },
+  {
+    "guid": {
+      "a": "459d1e77-e211-7068-0ea1-707d92f9f325",
+      "b": ""
+    },
+    "objGuid": "Guid(5652965258644393629, 17885285812776201640)",
+    "extraType": "Entity",
+    "name": "2D Scene Object",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "0e108958-24ec-2019-bfd7-5e5e1347669a",
+      "b": ""
+    },
+    "objGuid": "Guid(5466753282598375386, 1362263172578821806)",
+    "extraType": "ScreenTransform",
+    "name": "Screen Transform",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "65ecea7d-9c5b-b50b-669e-f84225c52111",
+      "b": ""
+    },
+    "objGuid": "Guid(5181309697019394067, 10214571452026437789)",
+    "extraType": "Image",
+    "name": "Image",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "873b1ac2-72ef-d7da-87f7-fdc6a75b68ac",
+      "b": ""
+    },
+    "objGuid": "Guid(5433142310469964635, 6825700338844657295)",
+    "extraType": "Entity",
+    "name": "Perspective Background",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "02837dcf-f9c1-37bf-b1e4-400da421cff2",
+      "b": ""
+    },
+    "objGuid": "Guid(5217459862079335948, 10524584821312503197)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "a82936d6-028f-a56c-49e5-b008f37e5428",
+      "b": ""
+    },
+    "objGuid": "Guid(4613550999200628630, 590265422434544051)",
+    "extraType": "EffectNode",
+    "name": "Render Group",
+    "version": "0.1.0",
+    "rttiType": "EffectNode",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "type": 5,
+    "sortMethod": 2,
+    "enableInputTexture": false,
+    "inputTexture": "00000000-0000-0000-0000-00000000004b"
+  },
+  {
+    "guid": {
+      "a": "696de755-65c7-78ab-f694-d3947738730f",
+      "b": ""
+    },
+    "objGuid": "Guid(5365894571318498612, 7347007789538356369)",
+    "extraType": "Entity",
+    "name": "Perspective Foreground",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "d33c29e9-ad0d-bf5e-35cc-b2b794ec9775",
+      "b": ""
+    },
+    "objGuid": "Guid(5489437065541754772, 5021870717173835160)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "3fb2ec7d-4476-0380-9496-5ad34ccd1825",
+      "b": ""
+    },
+    "objGuid": "Guid(5741460249489727255, 9282846259215881614)",
+    "extraType": "EffectNode",
+    "name": "Render Group",
+    "version": "0.1.0",
+    "rttiType": "EffectNode",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "type": 5,
+    "sortMethod": 2,
+    "enableInputTexture": false,
+    "inputTexture": "00000000-0000-0000-0000-00000000004b"
+  },
+  {
+    "guid": {
+      "a": "a3918c56-e5e2-3c84-e35e-a53611572a91",
+      "b": ""
+    },
+    "objGuid": "Guid(5297510890055787609, 2609313265391425977)",
+    "extraType": "Entity",
+    "name": "Main Camera",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "05ced5ff-09bd-79a1-dbf7-802da5f0ff74",
+      "b": ""
+    },
+    "objGuid": "Guid(5422894252039213377, 5740949846465508993)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "557e73e2-cd6c-240d-0dfa-199aee59d0ba",
+      "b": ""
+    },
+    "objGuid": "Guid(5221731834475906126, 8199652849211631008)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "version": "0.4.0",
+    "rttiType": "Camera",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.4.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "enableMask": false,
+    "maskTexture": "00000000-0000-0000-0000-000000000802",
+    "physicalFovy": false,
+    "fov": 60,
+    "cachedInputTexture": "00000000-0000-0000-0000-00000000004b",
+    "isAnimatorBound": false
+  },
+  {
+    "guid": {
+      "a": "20540419-d401-10fd-7460-84cb29b25521",
+      "b": ""
+    },
+    "objGuid": "Guid(5209009314596602762, 7424072030815643836)",
+    "extraType": "Entity",
+    "name": "Main",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "2656c00b-13aa-799c-8a34-1702174bec4f",
+      "b": ""
+    },
+    "objGuid": "Guid(5655478532903734171, 8942231647218743998)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "3aca7677-e370-d82b-ca45-8c3a2f2dfd30",
+      "b": ""
+    },
+    "objGuid": "Guid(5044407408752658813, 17582122851106125490)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "version": "0.4.0",
+    "rttiType": "Camera",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "enableMask": false,
+    "maskTexture": "00000000-0000-0000-0000-000000000802",
+    "physicalFovy": false,
+    "fov": 60,
+    "cachedInputTexture": "00000000-0000-0000-0000-00000000004b",
+    "isAnimatorBound": false
+  },
+  {
+    "guid": {
+      "a": "8effe795-20ac-1cf2-3f30-d145d2646229",
+      "b": ""
+    },
+    "objGuid": "Guid(4617807426410509770, 12202469631552471966)",
+    "extraType": "Entity",
+    "name": "Orthographic Foreground",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "0d6042ad-883a-3ff9-6998-7d5738e60f9a",
+      "b": ""
+    },
+    "objGuid": "Guid(5545747233812479778, 4556576878454754194)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "d989c0db-be42-a921-49b8-3c819fef721f",
+      "b": ""
+    },
+    "objGuid": "Guid(5593891602802592458, 1930989504282483859)",
+    "extraType": "EffectNode",
+    "name": "Render Group",
+    "version": "0.1.0",
+    "rttiType": "EffectNode",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "type": 6,
+    "sortMethod": 1,
+    "enableInputTexture": false,
+    "inputTexture": "00000000-0000-0000-0000-00000000004b"
+  },
+  {
+    "guid": {
+      "a": "72e16bdc-27e9-9a9c-e025-6dfbeb1243fb",
+      "b": ""
+    },
+    "objGuid": "Guid(5321470076206331518, 5836263055278810507)",
+    "extraType": "Entity",
+    "name": "Logo",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "f6cea47e-a3ff-f6c7-280e-efadcb5d3759",
+      "b": ""
+    },
+    "objGuid": "Guid(5231383818046353177, 1314397381361449859)",
+    "extraType": "ScreenTransform",
+    "name": "Screen Transform",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "7a7951b0-f720-5491-02a6-d464aa36c98b",
+      "b": ""
+    },
+    "objGuid": "Guid(5227642282106797614, 8778892045411981968)",
+    "extraType": "Image",
+    "name": "Image",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "13e28fe9-cc9e-ccff-edaa-33e5ad08dfb8",
+      "b": ""
+    },
+    "objGuid": "Guid(5407188705925001976, 1400941370580539533)",
+    "extraType": "Entity",
+    "name": "Audio",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_utility",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "b1a45031-ee03-7b35-883d-a95421f49f40",
+      "b": ""
+    },
+    "objGuid": "Guid(4999409949176199001, 1975698878130084500)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "b847ddac-7475-12a9-7f97-6464e679bb64",
+      "b": ""
+    },
+    "objGuid": "Guid(4899189692095948891, 12983391031692250533)",
+    "extraType": "Entity",
+    "name": "Audio Player",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_utility",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "3ae60144-43b3-52d4-63e8-7a993108abcf",
+      "b": ""
+    },
+    "objGuid": "Guid(4828493696955197988, 9249858882411082627)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "version": "0.1.0",
+    "rttiType": "Transform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "linkage": 0
+  },
+  {
+    "guid": {
+      "a": "cc958b88-98f6-529f-0552-cc4ef6a4bcab",
+      "b": ""
+    },
+    "objGuid": "Guid(4916177477716815650, 10518821159199856298)",
+    "extraType": "AudioComponent",
+    "name": "Audio Player",
+    "version": "0.2.0",
+    "rttiType": "AudioComponent",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.2.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "audioRef": "00000000-0000-0000-0000-000000000080"
+  }
+]

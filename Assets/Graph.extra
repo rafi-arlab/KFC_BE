@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "14d6890c-8920-9629-1856-04e207f53c28",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Graph",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

@@ -1,0 +1,28 @@
+{
+	"id": "76b5c547-47ed-a4fc-20b4-d9c0e5e9d2d4",
+	"name": "Texture 2D",
+	"category": "Parameter",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "The texture 2D parameter",
+			"type": "Texture",
+			"providerType": "Texture2DProvider",
+			"nameKey": "mg_texture_2d_output_result",
+			"descriptionKey": "mg_texture_2d_output_result_description",
+			"displayType": "Texture 2D",
+			"displayTypeKey": "graph_type_texture2d"
+		}
+	],
+	"description": "Adds a texture 2D parameter",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.0.0",
+	"nameKey": "mg_texture_2d_name",
+	"descriptionKey": "mg_texture_2d_description",
+	"categoryKey": "mg_category_parameter"
+}

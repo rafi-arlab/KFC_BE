@@ -1,0 +1,36 @@
+{
+	"id": "9c94055c-7406-9431-8a9f-0967040005de",
+	"name": "Texture Coord",
+	"category": "Builtin Data",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "UV Coord 0",
+			"description": "The first UV coordinate",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"nameKey": "mg_texture_coord_output_uv_coord_0",
+			"descriptionKey": "mg_texture_coord_output_uv_coord_0_description",
+			"displayTypeKey": "graph_type_vec2"
+		},
+		{
+			"name": "UV Coord 1",
+			"description": "The second UV coordinate",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"nameKey": "mg_texture_coord_output_uv_coord_1",
+			"descriptionKey": "mg_texture_coord_output_uv_coord_1_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"description": "Returns the UV coordinates of the texture",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.1.0",
+	"nameKey": "mg_texture_coord_name",
+	"categoryKey": "mg_category_builtin_data",
+	"descriptionKey": "mg_texture_coord_description"
+}

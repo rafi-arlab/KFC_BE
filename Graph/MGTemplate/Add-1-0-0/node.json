@@ -1,0 +1,75 @@
+{
+	"id": "9fd936ec-9566-f876-b94e-5d0a66bd70df",
+	"name": "Add",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "A",
+			"description": "The first input value",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "mg_add_input_a",
+			"descriptionKey": "mg_add_input_a_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "B",
+			"description": "The second input value",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "mg_add_input_b",
+			"descriptionKey": "mg_add_input_b_description",
+			"displayTypeKey": "graph_type_vec3"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "The result of A plus B",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "mg_add_output_result",
+			"descriptionKey": "mg_add_output_result_description",
+			"displayTypeKey": "graph_type_vec3"
+		}
+	],
+	"description": "Calculates the sum of two input values",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"genType",
+				"Number"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.0.0",
+	"nameKey": "mg_add_name",
+	"categoryKey": "mg_category_math",
+	"descriptionKey": "mg_add_description"
+}

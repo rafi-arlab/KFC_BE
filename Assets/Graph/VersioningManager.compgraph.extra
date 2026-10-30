@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "11b26e08-3947-bdad-9b3d-03a4268697fb",
+      "b": ""
+    },
+    "extraType": "ResItemComponentGraph",
+    "name": "VersioningManager",
+    "version": "0.0.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\User\\AppData\\Local\\Effect House\\Resources\\BuiltinResource\\ScriptGraph\\BuiltinAsset\\Custom Component.compgraph",
+    "references": []
+  }
+]

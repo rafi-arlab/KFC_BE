@@ -1,0 +1,29 @@
+[
+  {
+    "guid": {
+      "a": "7c41a404-2100-aab9-5ab2-a8790350541a",
+      "b": ""
+    },
+    "extraType": "ResItemGraphMaterial",
+    "name": "reveal_base",
+    "expandInPanel": false,
+    "objGuid": "",
+    "version": "0.5.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "rttiType": "Material",
+    "authorizationInfo": "",
+    "skinObjGuid": "Guid(4920271378311335685, 10308770023008759691)",
+    "references": [
+      {
+        "propertyName": "_Custom_Sampler2D_1",
+        "guid": "00000000-0000-0000-0000-000002000210"
+      },
+      {
+        "propertyName": "_Custom_Sampler2D",
+        "guid": "00000000-0000-0000-0000-000002000210"
+      }
+    ],
+    "currAuslVersion": "1.0.0"
+  }
+]

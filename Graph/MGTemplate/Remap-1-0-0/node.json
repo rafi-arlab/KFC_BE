@@ -1,0 +1,89 @@
+{
+	"id": "E76E8C62-D2AF-F154-443A-BD8E11743E3E",
+	"name": "Remap",
+	"category": "Utility",
+	"inputs": [
+		{
+			"name": "Value",
+			"description": "The value to remap;",
+			"nameKey": "mg_remap_input_value",
+			"descriptionKey": "mg_remap_input_value_description",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number",
+			"type": "Number"
+		},
+		{
+			"name": "Input Min",
+			"description": "The lower bound of the input value range;",
+			"nameKey": "mg_remap_input_input_min",
+			"descriptionKey": "mg_remap_input_input_min_description",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number",
+			"type": "Number"
+		},
+		{
+			"name": "Input Max",
+			"description": "The upper bound of the input value range;",
+			"nameKey": "mg_remap_input_input_max",
+			"descriptionKey": "mg_remap_input_input_max_description",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number",
+			"type": "Number"
+		},
+		{
+			"name": "Output Min",
+			"description": "the lower bound of the output value range;",
+			"nameKey": "mg_remap_input_output_min",
+			"descriptionKey": "mg_remap_input_output_min_description",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number",
+			"type": "Number"
+		},
+		{
+			"name": "Output Max",
+			"description": "The upper bound of the output value range.",
+			"nameKey": "mg_remap_input_output_max",
+			"descriptionKey": "mg_remap_input_output_max_description",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number",
+			"type": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "The remapped value.",
+			"nameKey": "mg_remap_output_result",
+			"descriptionKey": "mg_remap_output_result_description",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number",
+			"type": "Number"
+		}
+	],
+	"description": "Remap the input value from an old range to a new range.\nAnd the data type will change automatically according to the input type.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.0.0",
+	"nameKey": "mg_remap_name",
+	"categoryKey": "mg_category_utility",
+	"descriptionKey": "mg_remap_description",
+	"nodeSettingConfig": {
+		"sections": [
+			{
+				"section": "General",
+				"sectionKey": "mgparam_section_general",
+				"properties": [
+					{
+						"property": "Clamp",
+						"propertyType": "Checkbox",
+						"propertyKey": "mg_remap_setting_general_clamp",
+						"defaultValue": false
+					}
+				]
+			}
+		]
+	}
+}

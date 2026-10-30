@@ -1,0 +1,654 @@
+%YAML 1.1
+--- !Scene &1
+name: !<str> ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: !<str> V5
+entities:
+  - __class: Entity
+    name: !<str> Main Camera
+    guid: {a: 10180214583793075010, b: 13085474825770890632}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 18393534764065644695, b: 16547619468206596491}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        fovType:
+          __class: CameraFovType
+          value: CUSTOM
+        orthoScale: 1
+        fitMode:
+          __class: CameraFitMode
+          value: NONE
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        maskMaterial: {localId: 1, path: 4d58f928-8036-8ba4-aedc-d81774c8bc82--4d58f928-8036-8ba4-aedc-d81774c8bc82.material}
+        sortMethod:
+          __class: CameraSortMethod
+          value: RENDERQUEUE_AND_DEPTH
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: CAMERA_CHANGED
+    layer: 0
+  - __class: Entity
+    name: !<str> General
+    guid: {a: 5572803286065691648, b: 10808225779706699930}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 4660260443602838698, b: 17222594840295126447}
+        enabled: true
+        algorithmInput: {localId: 1, path: share://input.texture}
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 8001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> Orthographic Background
+    guid: {a: 4846084881374646499, b: 10921300762328150934}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 5126105089743119024, b: 6523756192791205019}
+        enabled: true
+        algorithmInput: {localId: 1, path: share://input.texture}
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> Perspective Background
+    guid: {a: 5433142310469964635, b: 6825700338844657295}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 4613550999200628630, b: 590265422434544051}
+        enabled: true
+        algorithmInput: {localId: 1, path: share://input.texture}
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9002
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> Perspective Foreground
+    guid: {a: 5365894571318498612, b: 7347007789538356369}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 5741460249489727255, b: 9282846259215881614}
+        enabled: true
+        algorithmInput: {localId: 1, path: share://input.texture}
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9003
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> Lighting
+    guid: {a: 5698242305589306169, b: 2765726890270334118}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 7}
+    layer: 0
+  - __class: Entity
+    name: !<str> Main Camera
+    guid: {a: 5297510890055787609, b: 2609313265391425977}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 13}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 5221731834475906126, b: 8199652849211631008}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        fovType:
+          __class: CameraFovType
+          value: CUSTOM
+        orthoScale: 1
+        fitMode:
+          __class: CameraFitMode
+          value: NONE
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: RENDERQUEUE_AND_DEPTH
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: CAMERA_CHANGED
+    layer: 0
+  - __class: Entity
+    name: !<str> EffectController
+    guid: {a: 5659254956275053312, b: 17773670515030420411}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 6}
+      - __class: JSScriptComponent
+        name: !<str> ""
+        guid: {a: 4675335832612711588, b: 1317532423702559930}
+        enabled: true
+        path: !<str> js/Graph/Component/ScriptGraph_55d2c31b5c10713976436c92d9c162ae.js
+        properties:
+          __class: Map
+          componentAlgorithmMap:
+            __class: Map
+          componentValueMap:
+            __class: Map
+          extraType: !<str> ComponentGraph
+    layer: 0
+  - __class: Entity
+    name: !<str> Main
+    guid: {a: 4645661532268818160, b: 10609441462177540770}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 4831734657769439407, b: 1970019132563573676}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        fovType:
+          __class: CameraFovType
+          value: CUSTOM
+        orthoScale: 20
+        fitMode:
+          __class: CameraFitMode
+          value: FILL
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        maskMaterial: {localId: 1, path: f191db55-342d-709f-5b5d-910d78733d46--f191db55-342d-709f-5b5d-910d78733d46.material}
+        sortMethod:
+          __class: CameraSortMethod
+          value: STRICT_SORT_ORDER
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: CAMERA_CHANGED
+    layer: 0
+  - __class: Entity
+    name: !<str> Main
+    guid: {a: 5209009314596602762, b: 7424072030815643836}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 27}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 5044407408752658813, b: 17582122851106125490}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        fovType:
+          __class: CameraFovType
+          value: CUSTOM
+        orthoScale: 20
+        fitMode:
+          __class: CameraFitMode
+          value: FILL
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: STRICT_SORT_ORDER
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: CAMERA_CHANGED
+    layer: 0
+  - __class: Entity
+    name: !<str> Orthographic Foreground
+    guid: {a: 4617807426410509770, b: 12202469631552471966}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 28}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 5593891602802592458, b: 1930989504282483859}
+        enabled: true
+        algorithmInput: {localId: 1, path: share://input.texture}
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9004
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> Logo
+    guid: {a: 5321470076206331518, b: 5836263055278810507}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 30}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5227642282106797614, b: 8778892045411981968}
+        enabled: true
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 00000000-0000-0000-0000-0000000000c0--00000000-0000-0000-0000-0000000000c0.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D Scene Object
+    guid: {a: 5652965258644393629, b: 17885285812776201640}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5181309697019394067, b: 10214571452026437789}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 00000000-0000-0000-0000-000000000024--00000000-0000-0000-0000-000000000024.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> Audio
+    guid: {a: 5407188705925001976, b: 1400941370580539533}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 31}
+    layer: 0
+  - __class: Entity
+    name: !<str> Audio Player
+    guid: {a: 4899189692095948891, b: 12983391031692250533}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 32}
+      - __class: DynamicComponent
+        name: !<str> AudioComponent
+        guid: {a: 4916177477716815650, b: 10518821159199856298}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5636409409314244182, b: 7496106912850879895}
+          properties:
+            __class: Map
+            autoPlay: false
+            isMobilePreview: false
+            loopCount: 1
+            mute: false
+            playMode: !<str> Once
+            resourcePath: !<str> ""
+            volume: 100
+        enabled: true
+        className: !<str> AudioComponent
+    layer: 0
+visible: true
+config:
+  __class: Map
+  RTInputDeferredCopy: true
+msaa:
+  __class: MSAAMode
+  value: _4X
+jsScriptSystems:
+  - !<str> js/AmazingProRuntime.js
+  - !<str> js/Graph/GraphSystem.js
+  - !<str> js/JSAssetSystem.js
+  - !<str> js/MultiLangSupport.js
+  - !<str> js/AmazingProEditor.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+resourceRendererType:
+  __class: RendererType
+  value: Auto
+--- !Transform &2
+name: !<str> ""
+guid: {a: 14145000689903744101, b: 6111037265461598351}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: !<str> ""
+guid: {a: 5217459862079335948, b: 10524584821312503197}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: !<str> ""
+guid: {a: 5123302227331141539, b: 7587318471420405647}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 6}
+  - {localId: 7}
+  - {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: !<str> ""
+guid: {a: 5153257688403037013, b: 16235676080682173106}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: !<str> ""
+guid: {a: 5189671504040886896, b: 15306510303607215785}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: !<str> ""
+guid: {a: 5713894924962688845, b: 18404978233284172946}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 9}
+  - {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: !<str> ""
+guid: {a: 5354925933314224755, b: 12994409418858128569}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &11
+name: !<str> ""
+guid: {a: 5466753282598375386, b: 1362263172578821806}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !Transform &12
+name: !<str> ""
+guid: {a: 5489437065541754772, b: 5021870717173835160}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: !<str> ""
+guid: {a: 5422894252039213377, b: 5740949846465508993}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &27
+name: !<str> ""
+guid: {a: 5655478532903734171, b: 8942231647218743998}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &28
+name: !<str> ""
+guid: {a: 5545747233812479778, b: 4556576878454754194}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 27}
+  - {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &30
+name: !<str> ""
+guid: {a: 5231383818046353177, b: 1314397381361449859}
+enabled: true
+localPosition: {x: 0, y: 16.875, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 540}
+sizeDelta: {x: 100, y: 100}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !Transform &31
+name: !<str> ""
+guid: {a: 4999409949176199001, b: 1975698878130084500}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 32}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &32
+name: !<str> ""
+guid: {a: 4828493696955197988, b: 9249858882411082627}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic

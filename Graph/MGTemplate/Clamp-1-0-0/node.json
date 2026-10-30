@@ -1,0 +1,109 @@
+{
+	"id": "0b08a1c8-5144-9f81-d6a0-45d3e1c18f3d",
+	"name": "Clamp",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "Value",
+			"description": "The input value to clamp",
+			"nameKey": "mg_clamp_input_value",
+			"descriptionKey": "mg_clamp_input_value_description",
+			"displayType": "Vec3",
+			"displayTypeKey": "graph_type_vec3",
+			"type": "Vector3f"
+		},
+		{
+			"name": "Min",
+			"description": "The minimum value of the clamp range",
+			"nameKey": "mg_clamp_input_min",
+			"descriptionKey": "mg_clamp_input_min_description",
+			"displayType": "Vec3",
+			"displayTypeKey": "graph_type_vec3",
+			"type": "Vector3f"
+		},
+		{
+			"name": "Max",
+			"description": "The maximum value of the clamp range",
+			"nameKey": "mg_clamp_input_max",
+			"descriptionKey": "mg_clamp_input_max_description",
+			"displayType": "Vec3",
+			"displayTypeKey": "graph_type_vec3",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "The resulting value constrained within the clamp range",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "mg_clamp_output_result",
+			"descriptionKey": "mg_clamp_output_result_description",
+			"displayTypeKey": "graph_type_vec3"
+		}
+	],
+	"description": "Limits the input value within minimum and maximum values",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"genType",
+				"Number",
+				"Number"
+			],
+			"out": [
+				"genType"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.0.0",
+	"nameKey": "mg_clamp_name",
+	"categoryKey": "mg_category_math",
+	"descriptionKey": "mg_clamp_description",
+	"nodeSettingConfig": {
+		"sections": [
+			{
+				"section": "General",
+				"sectionKey": "mgparam_section_general",
+				"properties": [
+					{
+						"property": "Clamp Mode",
+						"propertyType": "StringList",
+						"propertyKey": "mg_clamp_setting_general_clamp_mode",
+						"defaultValue": "CLAMP",
+						"propertyAttribute": {
+							"option": [
+								{
+									"key": "mg_clamp_setting_general_clamp_mode_stringlist_clamp",
+									"value": "CLAMP"
+								},
+								{
+									"key": "mg_clamp_setting_general_clamp_mode_stringlist_clamp_min",
+									"value": "CLAMP_MAX"
+								},
+								{
+									"key": "mg_clamp_setting_general_clamp_mode_stringlist_clamp_max",
+									"value": "CLAMP_MIN"
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}
